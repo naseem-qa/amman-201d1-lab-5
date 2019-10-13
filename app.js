@@ -113,7 +113,7 @@ function multiplyArray([a,b,c]) { //eslint-disable-line
   var resMulti = multiply(multiply(a,b)[0],c)[0];
   return [ resMulti ,'The numbers ' + a + ',' + b + ',' + c + ' have a product of ' + resMulti + '.' ];
 }
-multiplyArray([]);
+multiplyArray([])
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
 
@@ -124,7 +124,7 @@ testMultiplyArray(testArray);
 // Don't forget to create a new branch for your work on the next question, if you attempt it.
 
 /////////////////////////////////////
-/* STRETCH GOAL: Problem 6
+/* STRETCH GOAL: Problem 6 
 Write a function called multiplyAnyArray() that takes an array of numbers of any length as its argument and returns an array whose first element is the product of those numbers, and the second element is a string that EXACTLY follows this example and concatenates a message using the arguments that were passed into the function:
 
 "The numbers 1,2,3,4,5 have a product of 120."
