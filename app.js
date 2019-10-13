@@ -131,7 +131,7 @@ Write a function called multiplyAnyArray() that takes an array of numbers of any
 
 IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To do multiplication, use your multiply() function that you've already created. You're going to have to be resourceful to figure out how to do this. However, you may continue to use the + operator for string concatenation.
 
-This function should be dynamic, accepting an array of any length.
+This function should be dynamic, accepting an array of any length. 
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyAnyArray() function and see if the test passes.*/
 
